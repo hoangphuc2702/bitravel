@@ -2,21 +2,11 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-// const Navigation = () => {
-//   return (
-//     <div>
-//       <h1>This is Navigation</h1>
-//     </div>
-//   );
-// }
-
-// export default Navigation
-
 const Navigation = () => {
   return (
     <section className="relative w-full h-[600px]">
       <Image 
-        src="/hero.jpg" // bạn cần thay bằng đường dẫn ảnh hero
+        src="../../public/imgs/logo_bitravel.png" // bạn cần thay bằng đường dẫn ảnh hero
         alt="Travel Banner"
         fill
         className="object-cover"
